@@ -1,29 +1,18 @@
-import pickle
 from copy import deepcopy
-
 import numpy as np
-
-from SoftCluster import soft_option_replay_mdp
-
-import sys
-
-# print('Number of arguments:', len(sys.argv), 'arguments.')
-# print('Argument List:', str(sys.argv))
+from soft_cluster import soft_option_replay_mdp
 
 p_random_action = 0
-env = "MiniGrid-NineRoomsDet-v0" #sys.argv[1]
-w1 = 1#sys.argv[2]
-w2 = 0.4#sys.argv[3]
-w3 = 0.1#sys.argv[4]
-#batch_size = int(sys.argv[2])
-#env =
-#batch_size = 64
+env = "MiniGrid-NineRoomsDet-v0"
+w1 = 1
+w2 = 0.4
+w3 = 0.1
 
 config = {
     "env": env,
     "seed": 0,
     "batch_trajectories_size": 32,
-    "epochs": 2000,
+    "epochs": 10000,
     "lr": 1e-4,
     "p_random_action": 0,
     "max_len_episode": 100,
