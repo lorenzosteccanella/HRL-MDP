@@ -7,8 +7,9 @@ Proceedings of The 2nd Conference on Lifelong Learning Agents, 2023
 
 https://proceedings.mlr.press/v232/steccanella23a.html
 
-To run an example on colab click to: [Colab Example](https://colab.research.google.com/github/lorenzosteccanella/HRL-MDP/blob/main/Example_colab.ipynb)
+For a quick demonstration, you can use the provided Google Colab notebook:
 
+![alt text](https://colab.research.google.com/assets/colab-badge.svg)
 
 # HRL-MDP: Hierarchical Representation Learning for Markov Decision Processes
 
